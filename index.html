@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gaurav Agarwal</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- WELCOME POPUP -->
+  <div id="welcomePopup">
+    <h1 class="welcomeText">Welcome to My Portfolio</h1>
+    <button id="welcomeBtn" class="welcomeBtn">Welcome</button>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">Gaurav Agarwal</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#profile">Profile</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#connect">Connect</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- HOME SECTION -->
+  <section id="home" class="home-section">
+    <img src="assets/images/profile.jpg" alt="My Photo" class="profile-pic" />
+    <div>
+      <p>Hello! I’m <span class="highlight">Gaurav Agarwal</span>, a passionate web developer who creates modern, stylish websites with smooth animations and premium UI.</p>
+    </div>
+  </section>
+
+  <!-- PROFILE SECTION -->
+  <section id="profile">
+    <h1>Profile</h1>
+    <div class="box">
+      <p>Hello! I’m <span class="highlight">Gaurav Agarwal</span>, an AI-powered Web Developer blending creativity with artificial intelligence.</p>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h1>Projects</h1>
+    <div class="project-slider">
+      <div class="project-card"><h3>Amazon Website Clone</h3><p>Built using HTML and CSS.</p></div>
+      <div class="project-card"><h3>Netflix Clone Website</h3><p>Created using HTML and CSS.</p></div>
+    </div>
+    <div class="project-card single-project"><h3>Portfolio Website</h3><p>Your personal portfolio.</p></div>
+  </section>
+
+  <!-- CONNECT SECTION -->
+  <section id="connect">
+    <h1>Connect</h1>
+    <div class="box center">
+      <h2>Connect With Me</h2>
+      <div class="connect-buttons">
+        <a href="https://www.linkedin.com/in/gauravvagl" target="_blank" class="connectBtn">LinkedIn</a>
+        <a href="https://www.github.com/gauravvagl" target="_blank" class="connectBtn">GitHub</a>
+        <a href="#" class="connectBtn">X (Twitter)</a>
+        <a href="#" class="connectBtn">Threads</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <h1>Contact Us</h1>
+    <div class="box">
+      <form id="contactForm" action="https://formsubmit.co/gauravvagl@gmail.com" method="POST">
+        <input type="text" id="name" name="name" placeholder="🧑 Your Name" required>
+        <input type="email" id="email" name="email" placeholder="📧 Your Email" required>
+        <textarea id="message" name="message" placeholder="💬 Your Message" required></textarea>
+        <button id="sendBtn" type="submit"><span id="btnText">Send Message</span><div id="loader"></div></button>
+      </form>
+      <div id="successPopup">Message Sent Successfully!</div>
+    </div>
+  </section>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
